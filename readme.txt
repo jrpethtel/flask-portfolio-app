@@ -11,13 +11,11 @@ flask run
 
 
 Next Actions
-*Turn into a Portfolio Site
+*Add .gitignore file (understand what it does first!)
+*Get project working in VSCode vs. command line locally
 *Include detail in About
-*Comment Code
-*Get up to GitHub
-*Add Auth
+*Add Auth for an Admin function.  Hide create and edit behind authentication.
 *Upgrade the database
 *Write Tests for it
-*Deploy
-*Set up a CI/CD Pipeline on it
+*Set up a CI/CD Pipeline on it. (Learn about deploying and how workflows work in Github.)
 
