@@ -20,6 +20,7 @@ def get_post(post_id):
 
 #Initializes the app.
 app = Flask(__name__)
+#Establishes a secret for the app in order to utilize session for flash messages.
 app.config['SECRET_KEY'] = '123456'
 
 #Home route.  Returns a list of all posts from the sqlite db.
