@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h2>{% block title %} {{ post['title'] }} {% endblock %}</h2>
+	<span class="badge badge-primary">{{ post['created'] }}</span>
+	<p>Link to Source Code: <a href="{{ post['sourceLink'] }}" target="_blank">{{ post['sourceLink'] }}</a></p>
+	<p>Link to Product/Application: <a href="{{ post['appLink'] }}" target="_blank">{{ post['appLink'] }}</a></p>
+	<p>
+	<p>Summary:<br>
+	{{ post['summary'] }}
+	</p>
+{% endblock %}
